@@ -1,0 +1,42 @@
+# XC Tracer Mini III GPS configuration File
+
+serialNumber=132005041262
+firmwareVersion=XC_Tracer_Mini_III_GPS_R03
+reset=no
+
+# supported protocols are None, XCTRACER, LK8EX1, LXWP0 or LXWPW
+stringToSend=LXWP0
+
+# supported connections are BLE, USB, BOTH or NONE
+sendDataOver=BLE
+
+# power on USB connector can be ON or OFF
+powerUSB=OFF
+
+# logger configuration
+logOnlyWhenFlying=yes
+pilotName=
+passengerName=
+gliderType=
+gliderId=
+
+# create your own vario tone settings below
+beepOnlyWhenFlying=yes
+setVolume=2
+dampingFactor=0.00
+ClimbToneOnThreshold=0.20
+ClimbToneOffThreshold=0.15
+SinkToneOnThreshold=-3.00
+SinkToneOffThreshold=-3.00
+tone=-10.00,200,100,100
+tone=-3.00,280,100,100
+tone=-0.51,300,500,100
+tone=-0.50,200,800,5
+tone=0.11,400,650,10
+tone=0.11,400,650,50
+tone=1.12,550,501,52
+tone=2.61,763,411,55
+tone=4.18,985,347,58
+tone=6.11,1255,279,62
+tone=8.00,1517,219,66
+tone=10.00,1800,150,70
